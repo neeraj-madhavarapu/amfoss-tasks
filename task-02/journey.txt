@@ -1,37 +1,41 @@
-journey...
+# journey...
 
 the first part is very easy when i go through the tree diagram then i seen the parchment.txt in which i found the first code:
 
-first code: aHR0cHM6Ly9naXRo
+# First code: aHR0cHM6Ly9naXRo
 
 the secound part is very fustrating to me as i struggled a lot to find the light room finaly i came across the "git branch -r" command so finally was able to find the light realm and when into it .
 there i seen the "KharnoktheBloodforged.py" which when run came a amazing animation which is superb and it told to use holy spell which i did not created yet.
 so i used grep to search the herb files which have good and holy in there context.
 herb names:
-Moonbloom Lnnmaknnl
-Mistveil  Lhrsudhk
+Moonbloom: Lnnmaknnl
+Mistveil:  Lhrsudhk
 
-the holy spell(with removing vowels):LnnmknnlLhrsdhk
+# The Holy spell(with removing vowels):LnnmknnlLhrsdhk
 
 So by using this holy spell we created i defeted the Kharnok and obtained the Celestial Veil Amulet's code "CSigVmaroAn" and the secound part of the code is found in the light book.
 
-secound code :dWIuY29tL2FtYW5ze
+# secound code :dWIuY29tL2FtYW5ze
 
 Know i when to the Dark Real I and II and opened the chests by using the amulet's code.
-The code in the chest1 is "GNhbGlidXIvVGVyb"
-the code obtained by unlocking chest2 is "WluYWwtQ2hhb3MtR29kU3VpdGU=".
+The code in the chest1 is;
+# code 3: "GNhbGlidXIvVGVyb"
+the code obtained by unlocking chest2 is;
+# code 4: "WluYWwtQ2hhb3MtR29kU3VpdGU=".
 
-the final code obtained:aHR0cHM6Ly9naXRodWIuY29tL2FtYW5zeGNhbGlidXIvVGVybWluYWwtQ2hhb3MtR29kU3VpdGU=" 
+the final code obtained:
+"aHR0cHM6Ly9naXRodWIuY29tL2FtYW5zeGNhbGlidXIvVGVybWluYWwtQ2hhb3MtR29kU3VpdGU=" 
 
 decoded -- "https://github.com/amansxcalibur/Terminal-Chaos-GodSuite" 
 
 after that i open the godsuite in again i was stuck. this is the worst furstration of my life. At last i came to know the "git log" and "git show" thus ending the pandamic of mine.
-so from there i found another code "aHR0cHM6Ly9naXRodWIuY29tL2FuZ3JlemljaGF0dGVyYm94L1RvLXRoZS1zdGFycy1hbmQtcmVhbG1zLXVuc2Vlbg==" 
+so from there i found another code;
+"aHR0cHM6Ly9naXRodWIuY29tL2FuZ3JlemljaGF0dGVyYm94L1RvLXRoZS1zdGFycy1hbmQtcmVhbG1zLXVuc2Vlbg==" 
 
 which decoded to "
 https://github.com/angrezichatterbox/To-the-stars-and-realms-unseen"
 
-so at last found the victory.py which concludes the task.
+so at last found the victory.py which concludes the task!!
 
 realy loved it <3.....
 
