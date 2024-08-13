@@ -1,0 +1,29 @@
+code-journey
+
+git commands
+1.git clone - this is used to clone the remote directory to your local directory.
+2.git branch - will tell in which branch we are in and us of -r will show the hidden branchs.
+3.git checkout - used to switch between branchs.
+4.git init - used to initialize a directory as a repository
+5.git add - used to add files to repository.
+6.git commit -m "commit" - used to give comment on the changes made.
+7.git status - used to know where the repository is active or not.
+8.git push - used to store the local respository to the remote repository.
+
+
+terminal commands
+1.pwd - to know in which path we are in.
+2.cd - used to go to a file and with .. is used to come back.
+3.tree or find - gives a strutural diagram of the available info and gives a file formate info.
+4.cat - used to read the content in .txt , .py , .sh files.
+5.grep - used to find string content in files , -r recurssive reading through files, -i ignor capitalization , -l list only fine names , * used to tell the command to read through every file.
+6.python3 <file_name.py> - used to run python files .
+7." ./"  - used to run .sh files.
+8.echo '....' | base64 -d - used to decode codes in to readable formate.
+9.mkdir - used to make directory 
+10.touch - used to create files like .txt etc.
+11.rmdir - used to remove directory.
+12.rm - used to remove directories with matter intit, -f force remove the data without a prompt msg, -i remove the data by giving a prompt msg, -r recussive removal will remove the sub-subfiles in sub files also.
+13.cp <file name> <location> - used to copy files.
+14.mv <ile name> <location> - used to move files.
+15.exit - to exit from the terminal.
