@@ -6,8 +6,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from docx import Document
 
 # Set up API keys from environment variables
-TELEGRAM_GOOGLE_BOOKS_API_KEY = '7124925550:AAEx8fQtFQBI9HQ9Qe1qUE05Y_2zlG_FxGA'
-GOOGLE_BOOKS_API_KEY = 'AIzaSyD2HipitHKX4zc5Sc1xx4CMoBCMpjqCUBk'
+TELEGRAM_GOOGLE_BOOKS_API_KEY = 'TELEGRAM_GOOGLE_BOOKS_API_KEY'
+GOOGLE_BOOKS_API_KEY = 'GOOGLE_BOOKS_API_KEY'
 
 # Initialize reading list document
 READING_LIST_DOC = 'reading_list.docx'
