@@ -1,5 +1,6 @@
+#DirectoryStructure
+```
 .
-├── DirectoryStructure.md
 └── v4
     ├── content
     │   ├── featured
@@ -244,5 +245,4 @@
     │   └── slides
     │       └── intro-to-webdev-workshop.pdf
     └── yarn.lock
-
-38 directories, 208 files
+```
