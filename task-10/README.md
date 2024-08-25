@@ -1,6 +1,6 @@
 # Operation Pixel Merge
 
-## jounery
+### jounery
 
 This was also a intrusting task where i learned about the use of OpenCV to detect a dot in the given .png file and also detect the colour of that dot .<br>
 After the detection of the dot's coordinates and the files in which complete white background is present .
