@@ -1,12 +1,15 @@
 # Telegram bot (pagepalbot)
 
-It was not completed but I was only able to complete it upto the use of /preview only. for the completion of code upto there also chatgpt helped a lot . 
+It was not completed, but I was only able to complete it up to the use of /preview only. For the completion of code up to there, also ChatGPT helped a lot. 
 
-first i asked chatgpt how to create a telegram bot it told to activate a virtual environment by using python as the code language.
-Then i setup it and created a file for the python code to be uploaded to the telegram bot for than we need the bot's tokken code for that , so , I approched the botFather to create a bot for this project named 'PagePalBot'
-after that I created the Google API key , with the help of chatgpt I obtained some code and replaced the tokken & key and tried so many time but for not able to get the bot be working .
-At last i came to know i did not able to run the python code  so asked chatgpt for help and then final i wass able to make the telegram bot to running .
-then i did not get any output or any responce from google books API so again I modified the code to take the Google book API key and generate the output .
-So finaly i was able to make the telegram bot to give the output in CSV files . But the problem about the /reading_list was not trouboshooted by me .
-Sadly I was not able to continue the telegram bot to it's fullest .
-But may try to do when understud the concept of making a telegram more correctly.
+First I asked ChatGPT how to create a Telegram bot; it told me to activate a virtual environment by using Python as the code language.<br>
+Then I setup it and created a file for the Python code to be uploaded to the Telegram bot. For that, we need the bot's tokken code for that, so I approached the botFather to create a bot for this project named 'PagePalBot.'<br>
+
+After that, I created the Google API key. With the help of ChatGPT, I obtained some code and replaced the token and key and tried so many times but was not able to get the bot to be working.<br>
+
+At last I came to know I was not able to run the Python code, so I asked ChatGPT for help, and then finally I was able to make the Telegram bot run. Then I did not get any output or any response from Google Books API, so again I modified the code to take the Google Book API key and generate the output.<br>
+
+So finally, I was able to make the Telegram bot give the output in CSV files. But the problem about the /reading_list was not troubleshooted by me.<br>
+
+Sadly, I was not able to continue the telegram bot to its fullest.
+But may try to do when understudying the concept of making a telegram more correctly.
