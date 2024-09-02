@@ -1,4 +1,4 @@
-# journey...
+# journey..-->Terminal Chaos
 
 The first part is very easy. When I go through the tree diagram, I i seen the parchment.txt, in which i found the first code:
 
