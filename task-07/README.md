@@ -1,4 +1,4 @@
-# Journey
+# Journey-->Pirate's Dilemma(mp4 subtitles searcher)
 
 I have done it in 4 parts. <br> 
 First, I have done the CLI with the mentioned commands; this can be seen in the[partI.py](https://github.com/neeraj-madhavarapu/amfoss-tasks/blob/main/task-07/partI.py). 
