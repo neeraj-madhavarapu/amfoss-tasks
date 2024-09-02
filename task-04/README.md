@@ -1,4 +1,4 @@
-# Journey Telegram bot (pagepalbot)
+# Journey-->Telegram bot (pagepalbot)
 
 It was not completed, but I was only able to complete it up to the use of /preview only. For the completion of code up to there, also ChatGPT helped a lot. 
 
