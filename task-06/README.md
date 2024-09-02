@@ -1,6 +1,4 @@
-# Journey
-# Documentation of portfolio viewing website
-
+# Journey--> Documentation of portfolio viewing website
 ## Portfolio web application 
 
 ### Feature:
