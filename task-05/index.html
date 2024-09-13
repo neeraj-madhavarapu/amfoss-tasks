@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Terminal</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome for icons -->
+</head>
+<body>
+  <div class="container">
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <div class="header">
+        <img src="image/shoes.png" alt="Store Logo" class="store-logo" />
+         <h1>Skystore</h1>
+          <div class="search-container">
+            <button id="search-icon"><i class="fas fa-search"></i></button>
+              <div id="search-bar-container">
+               <input type="text" id="product-search" placeholder="Search for a product...">
+              </div>
+          </div>
+      </div>
+     <div id="products-list" class="products-grid"></div> <!-- This is where products will be listed -->
+    </div>
+    
+    <!-- Right Panel (Terminal) -->
+    <div class="right-panel">
+      <div class="terminal">
+        <button id="close-terminal"><i class="fas fa-times"></i></button> <!-- Close icon -->
+        <div class="terminal-output" id="output"></div> <!-- Terminal output area -->
+        <input type="text" id="command-input" placeholder="Enter command..." /> <!-- Command input field -->
+      </div>
+      <button id="show-terminal" class="terminal-icon"><i class="fa-solid fa-terminal"></i></button> <!-- Terminal icon -->
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

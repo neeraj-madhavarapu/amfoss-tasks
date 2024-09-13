@@ -1,0 +1,255 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f2; /* Light pink background for the page */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left panel styling */
+.left-panel {
+  width: 70%;
+  padding: 20px;
+  overflow-y: scroll;
+  border-right: 1px solid #ccc;
+}
+
+/* Right panel (terminal) styling */
+.right-panel {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+}
+
+/* Terminal styling */
+.terminal {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative; /* Ensure relative positioning for the terminal */
+}
+
+/* Terminal output */
+.terminal-output {
+  flex-grow: 1;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#command-input {
+  border: none;
+  background: none;
+  color: white;
+  outline: none;
+  width: 100%;
+  border-top: 1px solid white;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Products grid styling */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+/* Product box styling */
+.product-box {
+  border: 2px solid white; /* White border around the box */
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f5f5f5; /* Grey-white box background */
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5); /* White spread-out effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.product-box:hover {
+  transform: translateY(-10px); /* Lifting effect */
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7); /* Stronger shadow on hover */
+}
+
+/* Image container to control the separator line */
+.image-container {
+  border-bottom: 2px solid white; /* Full-width white line */
+  padding-bottom: 10px; /* Space between image and line */
+  margin-bottom: 10px;  /* Space between line and product name */
+}
+
+/* Product image */
+.product-image {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+/* Container for search icon and search bar */
+.search-container {
+  position: relative; /* Ensure relative positioning for absolute positioning of the search bar */
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  transition: margin-left 0.3s ease; /* Smooth transition for moving the container */
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between items */
+  position: relative; /* Needed for absolute positioning inside */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Search container styling */
+.search-container {
+  position: relative; /* Position relative to the header for positioning search bar */
+  display: flex;
+  align-items: center;
+}
+
+/* Search icon styling */
+#search-icon {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease, margin-left 0.3s ease;
+  margin-left: -225px; /* Space between the name and the search icon */
+}
+
+/* Search icon hover effect */
+#search-icon:hover {
+  transform: scale(1.2);
+  color: #555;
+}
+
+/* Search bar container styling */
+#search-bar-container {
+  display: none;
+  transition: opacity 0.3s ease, width 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 200px; /* Adjust width as needed */
+}
+
+/* Show the search bar container */
+#search-bar-container.show {
+  display: block;
+  opacity: 1;
+  margin-left: -175px;
+}
+
+/* Adjust space between the search icon and search bar when the search bar is visible */
+.search-container.show #search-icon {
+  margin-left: -100px; /* Move the icon to the left to make space for the search bar */
+}
+
+.store-logo {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+#product-search {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Terminal control styles */
+.terminal-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.terminal-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Terminal icon styles */
+.terminal-icon {
+  position: absolute;
+  bottom: 20px;  /* Distance from the bottom */
+  right: 20px;   /* Distance from the right */
+  transform: none; /* Remove centering translation */
+  z-index: 10; /* Ensure it's on top of other elements */
+}
+
+.terminal-icon button {
+  background: none;
+  border: 2px solid black; /* Add black border */
+  border-radius: 50%; /* Optional: Make the button circular */
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px; /* Add padding for better clickability */
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.terminal-icon button:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+  border-color: #555; /* Darker border on hover */
+}
+
+/* Ensure the terminal is hidden initially */
+.terminal.hidden {
+  display: none;
+}
+
+/* Close Terminal Button */
+#close-terminal {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px; /* Adjust this value as needed */
+  cursor: pointer;
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+}
+
+/* Show Terminal Button */
+#show-terminal {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 24px; /* Adjust this value as needed */
+  cursor: pointer;
+}
