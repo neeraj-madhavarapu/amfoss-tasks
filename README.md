@@ -14,3 +14,16 @@ At present, my knowledge is somewhat limited, but I can guarantee you that with 
 ## What are your fields of interest, and how do you plan on working on them?
 
 I was interested in exploring stuff, like when I first learned coding, I really fell for it. With my sir's advice, I was able to learn C and Python in some depth by doing problems on HackerRank. Second was learning physics, with which I fall in my +1 and +2. That was buiding stuff from my small ages. I was continuously making stuff and destroying it when I found new ideas. Also, I was unable to record my collection of stuff I made. I was very sad about that. Reading is also my interest, in which I love thrills and romance as my genre. These are some of my interests.
+
+| Task-list        | Topic                        | Status    |
+|------------------|------------------------------|-----------|
+| [Task-00](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-00)          | Install Linux                | Completed |
+| [Task-01](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-01)          | Type Maestro                 | Completed |
+| [Task-02](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-02)          | Terminal Chaos               | Completed |
+| [Task-03](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-03)          | Hello, World!                | Completed |
+| [Task-04](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-04)          | Gopal and his PagePal        | Partially done |
+| [Task-05](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-05)          | TerminalTrolly               | Completed |
+| [Task-06](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-06)          | OpenDocs                     | Completed |
+| [Task-07](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-07)          | Pirate's Dilemma             | Completed |
+| [Task-08](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-08)          | Blog Burst                   | Completed |
+| [Task-10](https://github.com/neeraj-madhavarapu/amfoss-tasks/tree/main/task-10)          | Operation Pixel Merge        | Completed |
