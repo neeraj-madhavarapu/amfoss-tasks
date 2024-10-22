@@ -9,7 +9,7 @@ git commands
 6.git commit -m "commit" - used to give comment on the changes made.
 7.git status - used to know where the repository is active or not.
 8.git push - used to store the local respository to the remote repository.
-
+9.nano ~/.gitconfig - used to edit the configed entried in the git .
 
 terminal commands
 1.pwd - to know in which path we are in.
